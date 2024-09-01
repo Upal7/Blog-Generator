@@ -27,7 +27,7 @@ public class AIService {
         //Creating new Http Client
         HttpClient client=HttpClient.newHttpClient();
 
-        //Creating a new request based on the curl command from Gemini
+        //Creating a new request based on the curl command from Gemini and adding the prompt
         HttpRequest request = HttpRequest.newBuilder()
                 .uri(URI.create(URL))
                 .POST(HttpRequest.BodyPublishers.ofString("{\"contents\":[{\"parts\":[{\"text\":\"" + prompt + "\"}]}]}"))
