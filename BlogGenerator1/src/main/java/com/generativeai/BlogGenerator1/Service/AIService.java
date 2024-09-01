@@ -21,7 +21,7 @@ public class AIService {
 
     public String generateResponse(String prompt)
     {
-        //URL containing the call to the free Gemini API embedded with the API key
+        //URL containing the call to the free Gemini API embedded with the API key and others too
         String URL=env.getProperty("gemini.secure.api.URL");
 
         //Creating new Http Client
