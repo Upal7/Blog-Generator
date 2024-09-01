@@ -1,0 +1,188 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 100px;
+    width: 1100px;
+    border-radius: 15px;
+    padding-bottom: 5px;
+    height: 400px;
+    box-shadow: -5px 5px 5px black;
+    background: linear-gradient(178deg, #80ffdf 0%, #87eae2 16%, #8bd5e5 33%, #8dc1e7 50%, #8cace9 66%, #8a97eb 83%, #8682ed 100%);
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+h1{
+    color: #241602c0;
+}
+
+.icon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    padding: 3px 2px;
+    cursor: pointer;
+    height: 50px;
+    width: 50px;
+    position: relative;
+    left: 510px;
+    bottom: 75px;
+}
+
+.topic{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    padding-left: 15px;
+    margin-top: -40px;
+    width: 750px;
+    font-size: 20px;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 400;
+}
+
+label{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: start;
+}
+
+.topic input{
+    font-size: 16px;
+    margin-top: 5px;
+    border-radius: 4px;
+    font-family: 'Poppins',sans-serif;
+}
+.words{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+    padding-left: 17px;
+    margin-top: 40px;
+    width: 450px;
+    font-size: 20px;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 400;
+}
+
+.words select{
+    font-size: 16px;
+    margin-top: 5px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-family: 'Poppins',sans-serif;
+    width: 100px;
+}
+
+.blog_style{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    width: 450px;
+    padding-left: 500px;
+    margin-top: -60px;
+    font-size: 20px;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 400;
+}
+
+.blog_style select{
+    display: flex;
+    cursor: pointer;
+    flex-direction: column;
+    font-size: 16px;
+    margin-top: 5px;
+    border-radius: 4px;
+    font-family: 'Poppins',sans-serif;
+    width: 263px;
+}
+
+.generate{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+    margin-left: -470px;
+}
+
+.generate button{
+    position: relative;
+    width: 125px;
+    height: 40px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 500;
+    background: white;
+    transition: 0.5s;
+}
+
+.generate button:hover{
+    background: linear-gradient(51deg, #ff7086 0%, #ff6a85 16%, #ff6384 33%, #ff5b84 50%, #ff5483 66%, #ff4b82 83%, #ff4281 100%);
+    letter-spacing: 0.1em;
+    box-shadow: 0px 0px 25px #ff677e;
+}
+
+.answer{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 45px;
+    width: 1100px;
+    border-radius: 15px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    min-height: 100px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    box-shadow: -5px 5px 5px black;
+    background: linear-gradient(30deg, #00805e 0%, #4c945a 16%, #74a954 33%, #98be4c 50%, #bad340 66%, #dde92e 83%, #ffff00 100%);
+}
+
+.content{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: start;
+    text-align: justify;
+    font-size: 18px;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 500;
+    
+}
+
+p{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: left;
+    color: crimson;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 16px;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 500;
+    height: 0px;
+}
+
